@@ -1,8 +1,8 @@
-package com.github.DanielMager.prometheusQuery4J.response.data;
+package com.github.DanielMager.prometheusQueries4J.response.data;
 
 import java.util.List;
 
-import com.github.DanielMager.prometheusQuery4J.result.PrometheusMatrixResult;
+import com.github.DanielMager.prometheusQueries4J.result.PrometheusVectorResult;
 
 /**
  * Wrapper for the data field in the JSON Response for a Prometheus Query
@@ -21,21 +21,21 @@ import com.github.DanielMager.prometheusQuery4J.result.PrometheusMatrixResult;
  * @author Daniel Mager
  *
  */
-public class PrometheusQueryMatrixResponseData extends PrometheusQueryResponseData {
+public class PrometheusQueryVectorResponseData extends PrometheusQueryResponseData {
 
-	private List<PrometheusMatrixResult> result;
+	private List<PrometheusVectorResult> result;
 
 	/**
 	 * @return the result
 	 */
-	public List<PrometheusMatrixResult> getResult() {
+	public List<PrometheusVectorResult> getResult() {
 		return result;
 	}
 
 	/**
 	 * @param result the result to set
 	 */
-	public void setResult(List<PrometheusMatrixResult> result) {
+	public void setResult(List<PrometheusVectorResult> result) {
 		this.result = result;
 	}
 }

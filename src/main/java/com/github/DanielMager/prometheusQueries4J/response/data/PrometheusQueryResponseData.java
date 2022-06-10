@@ -1,6 +1,6 @@
-package com.github.DanielMager.prometheusQuery4J.response.data;
+package com.github.DanielMager.prometheusQueries4J.response.data;
 
-import java.util.List;
+import com.github.DanielMager.prometheusQueries4J.result.PrometheusResultType;
 
 /**
  * Wrapper for the data field in the JSON Response for a Prometheus Query
@@ -19,21 +19,21 @@ import java.util.List;
  * @author Daniel Mager
  *
  */
-public class PrometheusQueryScalarResponseData extends PrometheusQueryResponseData {
-
-	private List<String> result;
+public abstract class PrometheusQueryResponseData {
+	
+	public PrometheusResultType resultType;
 
 	/**
-	 * @return the result
+	 * @return the type
 	 */
-	public List<String> getResult() {
-		return result;
+	public PrometheusResultType getResultType() {
+		return resultType;
 	}
 
 	/**
-	 * @param result the result to set
+	 * @param type the type to set
 	 */
-	public void setResult(List<String> result) {
-		this.result = result;
+	public void setResultType(PrometheusResultType resultType) {
+		this.resultType = resultType;
 	}
 }

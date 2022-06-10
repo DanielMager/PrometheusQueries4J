@@ -1,4 +1,4 @@
-package com.github.DanielMager.prometheusQuery4J.result;
+package com.github.DanielMager.prometheusQueries4J.result;
 
 import com.google.gson.annotations.SerializedName;
 

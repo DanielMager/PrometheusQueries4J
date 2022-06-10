@@ -1,4 +1,4 @@
-package com.github.DanielMager.prometheusQuery4J.response.data;
+package com.github.DanielMager.prometheusQueries4J.response.data;
 
 import java.util.List;
 
@@ -19,7 +19,7 @@ import java.util.List;
  * @author Daniel Mager
  *
  */
-public class PrometheusQueryStringResponseData extends PrometheusQueryResponseData {
+public class PrometheusQueryScalarResponseData extends PrometheusQueryResponseData {
 
 	private List<String> result;
 

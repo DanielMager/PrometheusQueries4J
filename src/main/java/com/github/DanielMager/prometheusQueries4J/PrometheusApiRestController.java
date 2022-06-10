@@ -1,6 +1,6 @@
-package com.github.DanielMager.prometheusQuery4J;
+package com.github.DanielMager.prometheusQueries4J;
 
-import com.github.DanielMager.prometheusQuery4J.response.PrometheusQueryResponse;
+import com.github.DanielMager.prometheusQueries4J.response.PrometheusQueryResponse;
 
 import retrofit2.Call;
 import retrofit2.http.GET;

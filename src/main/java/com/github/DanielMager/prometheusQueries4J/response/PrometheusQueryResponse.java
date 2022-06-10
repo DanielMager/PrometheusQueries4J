@@ -1,8 +1,8 @@
-package com.github.DanielMager.prometheusQuery4J.response;
+package com.github.DanielMager.prometheusQueries4J.response;
 
 import java.util.List;
 
-import com.github.DanielMager.prometheusQuery4J.response.data.PrometheusQueryResponseData;
+import com.github.DanielMager.prometheusQueries4J.response.data.PrometheusQueryResponseData;
 
 /**
  * Wrapper for the JSON Response for an instant query request. The JSON Response

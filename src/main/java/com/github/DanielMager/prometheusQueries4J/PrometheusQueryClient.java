@@ -1,14 +1,14 @@
-package com.github.DanielMager.prometheusQuery4J;
+package com.github.DanielMager.prometheusQueries4J;
 
 import java.io.IOException;
 import java.net.URL;
 
-import com.github.DanielMager.prometheusQuery4J.response.PrometheusQueryResponse;
-import com.github.DanielMager.prometheusQuery4J.response.data.PrometheusQueryMatrixResponseData;
-import com.github.DanielMager.prometheusQuery4J.response.data.PrometheusQueryResponseData;
-import com.github.DanielMager.prometheusQuery4J.response.data.PrometheusQueryScalarResponseData;
-import com.github.DanielMager.prometheusQuery4J.response.data.PrometheusQueryStringResponseData;
-import com.github.DanielMager.prometheusQuery4J.response.data.PrometheusQueryVectorResponseData;
+import com.github.DanielMager.prometheusQueries4J.response.PrometheusQueryResponse;
+import com.github.DanielMager.prometheusQueries4J.response.data.PrometheusQueryMatrixResponseData;
+import com.github.DanielMager.prometheusQueries4J.response.data.PrometheusQueryResponseData;
+import com.github.DanielMager.prometheusQueries4J.response.data.PrometheusQueryScalarResponseData;
+import com.github.DanielMager.prometheusQueries4J.response.data.PrometheusQueryStringResponseData;
+import com.github.DanielMager.prometheusQueries4J.response.data.PrometheusQueryVectorResponseData;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import com.google.gson.typeadapters.RuntimeTypeAdapterFactory;

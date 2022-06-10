@@ -2,11 +2,11 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.github.DanielMager</groupId>
-	<artifactId>prometheusQueryTool</artifactId>
+	<artifactId>prometheusQueries4J</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 
-	<name>PrometheusQueryTool</name>
-	<description>Tool for querying a prometheus instance using PromQL</description>
+	<name>PrometheusQueries4J</name>
+	<description>Tools for querying a prometheus instance using PromQL</description>
 
 	<build>
         <plugins>

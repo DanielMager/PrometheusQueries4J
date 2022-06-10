@@ -1,4 +1,4 @@
-# PrometheusQuery4J
+# PrometheusQueries4J
 Java tool for querying prometheus using PromQL
 
 ## Disclaimer
