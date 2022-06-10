@@ -4,6 +4,25 @@ Java tool for querying prometheus using PromQL
 ## Disclaimer
 It should be noted that currently only Prometheus instant queries (see [Prometheus Docs](https://prometheus.io/docs/prometheus/latest/querying/api/#instant-queries)) have been tested!
 
+## How to install
+You can install the package from GitHub with jitpack into your maven project by adding the following to your project's `pom.xml`
+
+	<repositories>
+		<repository>
+			<id>jitpack.io</id>
+			<url>https://jitpack.io</url>
+		</repository>
+	</repositories>
+	
+	<dependencies>
+	   <dependency>
+			<groupId>com.github.DanielMager</groupId>
+			<artifactId>PrometheusQueryTool</artifactId>
+			<version>master-SNAPSHOT</version>
+		</dependency>
+	</dependencies>
+
+
 ## How to use
 To get the result JSON for the API request `http://localhost:9090/api/v1/query?query=go_gc_duration_seconds_count` :
 
